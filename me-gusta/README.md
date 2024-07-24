@@ -4,6 +4,7 @@
 
 Hoy vamos a hablar sobre algo que a todos nos encanta: ¡los «Me gusta»! Y lo mejor es que vamos a aprender a hacer que ese botón de «Me gusta» funcione en nuestra página web.
 El objetivo de este ejercicio es seguir practicando con el evento onclick y aprender a utilizar querySelector para seleccionar los elementos que queremos cambiar.
+
 Parte I:
 Vamos a recrear un diseño que incluye un botón de «Me gusta» y hacer que funcione para aumentar la cantidad de «Me gusta». Pero esta vez, vamos a hacerlo de una manera un poco diferente. Como vamos a cambiar el número en un elemento diferente al que le damos clic, no podremos usar this esta vez, por lo que tendrás que utilizar el querySelector para seleccionar los elementos que queremos cambiar.
 Así que prepárense para darle a ese botón de «Me gusta» todo el amor que se merece.
