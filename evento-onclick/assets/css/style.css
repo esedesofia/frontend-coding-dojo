@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a80557;
+  color: white;
+  padding: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+header input {
+  border-radius: 5px;
+  width: 50%;
+  padding: 5px 20px;
+}
+
+.content {
+  display: flex;
+}
+
+.definitions {
+  flex: 3;
+  margin-right: 20px;
+}
+
+.sidebar {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 120px;
+}
+
+.definition {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #6d813f;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #a87505;
+}
+
+#add-definition-btn {
+  background-color: #053ea8;
+}

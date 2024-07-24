@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 0 1.25rem 1.25rem;
+}
+
+.card {
+  width: 20rem;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card-header {
+  position: relative;
+  margin-bottom: 6rem;
+}
+
+.card-header-banner {
+  height: 9.375rem;
+  width: 100%;
+  background-color: #3747a5;
+}
+
+.card-header-avatar {
+  height: 9.375rem;
+  width: 9.375rem;
+  object-fit: cover;
+  object-position: 50% 40%;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(50%);
+  border: 0.188rem solid white;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body-header,
+.card-body-details,
+.card-body-description {
+  margin-bottom: 1rem;
+  color: #919191;
+}
+
+.card-body-header h1 {
+  color: rgb(82, 82, 82);
+  font-size: 1.8rem;
+}
+
+.card-body-description {
+  margin-bottom: 2rem;
+}
+
+.btn-edit-profile {
+  background-color: #f7f4f4;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}

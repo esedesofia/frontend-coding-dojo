@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+.main-body {
+  padding: 1.5rem;
+  display: flex;
+  gap: 4rem;
+}
+
+.left-row,
+.right-row {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section-container {
+  box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.section-container.padding {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section-container h2,
+.section-container p {
+  color: rgb(94, 94, 94);
+}
+
+.section-container h2 {
+  font-size: 1.8rem;
+}
+
+.section-container-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.section-container-date {
+  font-size: 0.8rem;
+}
+
+.profile-card .padding {
+  padding: 0 1.25rem 1.25rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  padding: 1.5rem;
+}
+
+.header h1 {
+  color: white;
+}
+
+.header .navigation {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  font-weight: bold;
+}
+
+.header ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.profile-card {
+  overflow: hidden;
+}
+
+.profile-card-header {
+  position: relative;
+  margin-bottom: 6rem;
+}
+
+.profile-card-header-banner {
+  height: 9.375rem;
+  background-color: #3747a5;
+}
+
+.profile-card-header-avatar {
+  height: 9.375rem;
+  width: 9.375rem;
+  object-fit: cover;
+  object-position: 50% 20%;
+  border-radius: 50%;
+  margin: 0 1.25rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(50%);
+  border: 0.188rem solid white;
+}
+
+.profile-card-body {
+  font-size: 1rem;
+}
+
+.profile-card-body-header,
+.profile-card-body-details,
+.profile-card-body-description {
+  margin-bottom: 1rem;
+  color: #919191;
+}
+
+.profile-card-body-description {
+  margin-bottom: 2rem;
+}
+
+.connect-section ul,
+.connection-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.connect-section li,
+.connection-section li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.connect-section-img-placeholder,
+.connection-section-user-placeholder {
+  width: 2.5rem;
+  border: 0.125rem solid #00bcd5;
+  border-radius: 0.4rem;
+}
+
+.connect-btn-section {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.connection-section-user-placeholder {
+  width: 2.5rem;
+  border: 0.063rem solid rgb(133, 133, 133);
+  border-radius: 100%;
+}
+
+.btn-edit-profile,
+.btn-logout,
+.btn-accept-connection,
+.btn-deny-connection {
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-edit-profile {
+  background-color: white;
+  color: #3747a5;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-logout {
+  background-color: #00bcd5;
+  font-weight: bold;
+  color: white;
+  padding: 0.625rem 1.25rem;
+}
+
+.btn-accept-connection,
+.btn-deny-connection {
+  background-color: transparent;
+  border: 0.063rem solid #dd7ead;
+  border-radius: 100%;
+  padding: 0.5rem;
+}
