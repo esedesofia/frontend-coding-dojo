@@ -4,7 +4,7 @@ Este repositorio está creado con la finalidad de mostrar una serie de proyectos
 
 ## Herramientas utilizadas
 
-!(https://skillicons.dev/icons?i=html,css,js&perline=3)
+![herramientas](https://skillicons.dev/icons?i=html,css,js&perline=3)
 
 ## Ejercicios
 
