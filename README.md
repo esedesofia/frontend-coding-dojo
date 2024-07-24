@@ -4,13 +4,7 @@ Este repositorio está creado con la finalidad de mostrar una serie de proyectos
 
 ## Herramientas utilizadas
 
-<div style="background-color: #333; color: white; padding: 30px; border-radius: 15px; text-aling: center;">
-  <p dir="auto" style="display: flex; gap: 20px;">
-    <code><a target="_blank" rel="noopener noreferrer" href="https://github.com/analiarojas2900/imagenes/blob/main/html-5.png"><img height="50"  src="https://github.com/analiarojas2900/imagenes/blob/main/html-5.png" alt="HTML" style="max-width: 100%;"></a></code>
-     <code><a target="_blank" rel="noopener noreferrer" href="https://github.com/analiarojas2900/imagenes/blob/main/css-3.png"><img height="50" src="https://github.com/analiarojas2900/imagenes/blob/main/css-3.png" alt="CSS" style="max-width: 100%;"></a></code>
-     <code><a target="_blank" rel="noopener noreferrer" href="https://github.com/analiarojas2900/imagenes/blob/main/js.png"><img height="50" src="https://github.com/analiarojas2900/imagenes/blob/main/js.png" alt="JS" style="max-width: 100%;"></a></code>
-  </p>
-</div>
+!(https://skillicons.dev/icons?i=html,css,js&perline=3)
 
 ## Ejercicios
 
